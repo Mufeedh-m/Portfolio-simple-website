@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: bisque;
+}
+.container{
+    padding:50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding:20px;
+    border-radius:5px;
+}
+.section-one__contact{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+    display: inline-block;
+    margin-top:10px;
+
+}
+.section-one__name{
+    font-size:50px;
+    margin-bottom:10px;
+    color:whitesmoke;
+}
+.section-one__role{
+    font-size:25px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top:20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc1,.section-five__desc{
+    margin-top:20px;
+}
+.section-five{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    border-radius:5px;
+}
+.section-five__link{
+    color:yellow;
+
+}
+.section-three li,.section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color:violet;
+    color: white;
+    height:250px;
+    width:150px;
+    padding:20px;
+    border-radius:10px;
+    display: inline-block;
+    vertical-align:top;
+}
+.section-four{
+    background-color:beige;
+    color:navy;
+    height: 250px;
+    width:500px;
+    border-radius:10px;
+    display: inline-block;
+    padding:20px;
+    vertical-align:top;
+}
+.section-six{
+    margin-top:15px;
+}
+.section-six__input,.section-six__textarea,.section-six__submit{
+    margin-top:15px;
+}
+.section-six__submit{
+    background-color:aquamarine;
+    color: black;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.section-six__submit:hover{
+    background-color:brown;
+    color:white;
+}
+.section-six__input{
+    border: none;
+    padding:10px;
+    border-bottom:solid 1px black;
+}
+.section-six__textarea{
+    padding:10px;
+}
